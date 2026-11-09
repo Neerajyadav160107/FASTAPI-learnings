@@ -13,3 +13,5 @@ def get_users(name: str = None , price : int=0 ):
         "name" :  name,
         "price" : price
     }
+
+##real word usecase: search , filter , pagination : ex-filter in e-commerce 
