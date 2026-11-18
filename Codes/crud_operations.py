@@ -44,3 +44,10 @@ def delete_todo (todo_id : int ) :
             todos.pop (index) 
             return {"message" : "Data deleted"}
     return {"error" : "Todo not found"}  
+
+
+    # Logic: Built a complete CRUD (Create, Read, Update, Delete) 
+    # API for a Todo application using FastAPI and Pydantic. Implemented
+    #  endpoints to create todos, retrieve all or individual todos, update
+    # existing todos, and delete todos using their IDs.
+    
