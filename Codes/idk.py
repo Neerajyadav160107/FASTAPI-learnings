@@ -29,3 +29,7 @@ def updated_user(user_id : int , user : User , notify : bool =False) :
     return { 
         "error" : "User not found"
     }
+
+# Logic: Implemented user creation and update endpoints using FastAPI 
+# and Pydantic. Added a notify query parameter (defaulting to False) 
+# to control an optional notification flag in the update response.
